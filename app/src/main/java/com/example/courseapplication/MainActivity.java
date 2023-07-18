@@ -27,7 +27,7 @@ import android.widget.Toast;
         repassword = (EditText) findViewById(R.id.repassword);
         button_inscription =(Button) findViewById(R.id.button_inscription);
         button_connexion = (Button) findViewById(R.id.button_connexion);
-        DB = new DBHelper(this);
+        DB = new DBHelper(getApplicationContext());
 
 
         button_inscription.setOnClickListener(new View.OnClickListener() {
