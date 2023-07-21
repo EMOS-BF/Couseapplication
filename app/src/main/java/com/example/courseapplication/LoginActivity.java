@@ -48,6 +48,16 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
 
+        button_inscription.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent intent  = new Intent(getApplicationContext(),MainActivity.class);
+                startActivity(intent);
+
+            }
+        });
+
     }
 
 
